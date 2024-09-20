@@ -1,6 +1,174 @@
-/*# resert*/
-* {
-    box-sizing: border-box;
+.debug {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.debug.debug.debug {
+    color: black;
+}
+
+body {
     margin: 0;
     padding: 0;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.logo-container {
+    flex: 1;
+    background-color: orange;
+    text-align: left;
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-self;
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    border: 2px dashed black;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+.login-container {
+    flex: 1;
+    background-color: orange;
+    text-align: right;
+    padding: 10px;
+    border: 2px dashed black;
+}
+
+.sezione1 {
+    background-color: rgb(31, 97, 238);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sezione1rosa {
+    background-color: rgb(219, 119, 203);
+    width: 60%;
+    height: 300px;
+    margin: 30px auto;
+    border: 2px dashed black;
+}
+
+.sezione2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.sezione2blu {
+    background-color: deepskyblue;
+    width: 60%;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.sezione2rosa {
+    background-color: pink;
+    width: 35%;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.sezione3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80%;
+    background-color: rgb(233, 238, 241);
+}
+
+.sezione3rosa {
+    background-color: pink;
+    width: 35%;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.sezione3blu {
+    background-color: deepskyblue;
+    width: 60%;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.sezione4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.sezione4blu {
+    background-color: deepskyblue;
+    width: 60%;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.sezione4rosa {
+    background-color: pink;
+    width: 35%;
+    height: 300px;
+    border: 2px dashed black;
+}
+
+.sezione5 {
+    background-color: lightgray;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sezione5verde {
+    background-color: green;
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px dashed black;
+}
+
+.sezione6 {
+    display: flex;
+    background-color: #222;
+    padding: 20px;
+}
+
+.sezione6rossa {
+    background-color: salmon;
+    width: 70%;
+    height: 300px;
+}
+
+.sezione6blu {
+    background-color: teal;
+    width: 30%;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.footer-item {
+    background-color: pink;
+    padding: 20px;
 }
