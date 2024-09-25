@@ -1,12 +1,3 @@
-.debug {
-    border: 2px dashed black;
-    padding: 10px;
-}
-
-.debug.debug.debug {
-    color: black;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +9,8 @@ body {
     align-items: center;
     background-color: lightblue;
     padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo-container {
@@ -31,7 +24,7 @@ body {
 nav ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-self;
+    justify-content: space-between;
     background-color: orange;
     margin: 0;
     padding: 0;
@@ -64,111 +57,121 @@ nav ul li {
     border: 2px dashed black;
 }
 
-.sezione2 {
+.sezione-common {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px auto;
     width: 80%;
 }
 
-.sezione2blu {
-    background-color: deepskyblue;
-    width: 60%;
+.internal-box {
+    width: 50%;
     height: 300px;
     border: 2px dashed black;
+    margin: 0;
+}
+
+.sezione2blu {
+    background-color: rgb(20, 139, 254);
+    width: 75%;
 }
 
 .sezione2rosa {
     background-color: pink;
-    width: 35%;
-    height: 300px;
-    border: 2px dashed black;
-}
-
-.sezione3 {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px auto;
-    width: 80%;
-    background-color: rgb(233, 238, 241);
 }
 
 .sezione3rosa {
     background-color: pink;
-    width: 35%;
-    height: 300px;
-    border: 2px dashed black;
 }
 
 .sezione3blu {
-    background-color: deepskyblue;
-    width: 60%;
-    height: 300px;
-    border: 2px dashed black;
-}
-
-.sezione4 {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px auto;
-    width: 80%;
+    background-color: rgb(20, 139, 254);
+    width: 75%;
 }
 
 .sezione4blu {
-    background-color: deepskyblue;
-    width: 60%;
-    height: 300px;
-    border: 2px dashed black;
+    background-color: rgb(20, 139, 254);
 }
 
 .sezione4rosa {
     background-color: pink;
-    width: 35%;
-    height: 300px;
-    border: 2px dashed black;
+}
+
+.sezione3 {
+    background-color: lightgray;
+    padding: 20px 0;
+    width: 100%;
 }
 
 .sezione5 {
     background-color: lightgray;
-    padding: 50px 0;
-    text-align: center;
+    padding: 20px 0;
+    width: 100%;
 }
 
 .sezione5verde {
     background-color: green;
-    width: 70%;
+    width: 100%;
     height: 600px;
-    margin: 0 auto;
     border: 2px dashed black;
+    margin: 0;
 }
 
 .sezione6 {
-    display: flex;
     background-color: #222;
-    padding: 20px;
+    padding: 80px 0;
+}
+
+.sezione6blu {
+    width: 24%;
+    height: 300px;
+    border: 2px dashed black;
+    margin: 0;
 }
 
 .sezione6rossa {
+    width: 40%;
     background-color: salmon;
-    width: 70%;
-    height: 300px;
 }
 
 .sezione6blu {
     background-color: teal;
-    width: 30%;
-    height: 300px;
-    margin-left: 40px;
+    border: 1px dashed white;
 }
 
-.footer-section {
+.sezione7 {
+    background-color: #222;
+    padding: 20px 0;
+}
+
+.footer-blue {
+    background-color: rgb(117, 239, 211);
     display: flex;
     justify-content: space-between;
-    background-color: lightseagreen;
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
 }
 
 .footer-item {
     background-color: pink;
     padding: 20px;
+    text-align: center;
+    width: 5%;
 }
+
+.debug {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.separator-section {
+    background-color: #222;
+    padding: 10px 0;
+}
+.separator-line {
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin: 0;
+}
+
